@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Weather&amp;Outfits" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0zq-YG-EsB">
+                                <rect key="frame" x="85" y="318" width="204" height="31"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.87450980389999999" green="0.20392156859999999" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.80784313730000001" green="0.23921568630000001" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dress" translatesAutoresizingMaskIntoConstraints="NO" id="xNm-ia-iAV">
+                                <rect key="frame" x="137" y="201" width="100" height="100"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xNm-ia-iAV" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="121" id="6UU-eh-WtU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0zq-YG-EsB" secondAttribute="trailing" constant="70" id="Gln-D8-AFr"/>
+                            <constraint firstItem="xNm-ia-iAV" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="181" id="J7c-MM-LyX"/>
+                            <constraint firstItem="0zq-YG-EsB" firstAttribute="top" secondItem="xNm-ia-iAV" secondAttribute="bottom" constant="17" id="asy-wb-DEP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xNm-ia-iAV" secondAttribute="trailing" constant="122" id="dsw-8j-tkn"/>
+                            <constraint firstItem="0zq-YG-EsB" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="69" id="vAo-3p-5jy"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="0zq-YG-EsB" secondAttribute="bottom" constant="318" id="zDM-nD-zNW"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Dress" width="100" height="100"/>
+    </resources>
+</document>
